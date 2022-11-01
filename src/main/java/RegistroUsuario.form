@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RegistroUsuario">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="30" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13800517"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ca36c" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-459265"/>
+          <foreground color="-263169"/>
+          <text value="Usuario:"/>
+        </properties>
+      </component>
+      <component id="61b5" class="javax.swing.JTextField" binding="rutSinGuionTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="35"/>
+          <text value="Rut sin guion"/>
+        </properties>
+      </component>
+      <component id="5c4ea" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-263169"/>
+          <foreground color="-1"/>
+          <text value="Contraseña:"/>
+        </properties>
+      </component>
+      <component id="d0e7c" class="javax.swing.JPasswordField" binding="añoIngresoPasswordField" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="18"/>
+          <text value="año ingreso"/>
+        </properties>
+      </component>
+      <component id="bb16a" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Ingresar"/>
+        </properties>
+      </component>
+      <component id="3bac9" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

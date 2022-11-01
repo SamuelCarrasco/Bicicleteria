@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ingreso">
+  <grid id="27dc6" binding="panel2" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="41" width="994" height="332"/>
+    </constraints>
+    <properties>
+      <background color="-13800517"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c167e" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Nombre"/>
+        </properties>
+      </component>
+      <component id="b63e5" class="javax.swing.JTextField" binding="textNombre">
+        <constraints/>
+        <properties>
+          <columns value="95"/>
+        </properties>
+      </component>
+      <component id="ef5ad" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Apellidos"/>
+        </properties>
+      </component>
+      <component id="39a93" class="javax.swing.JTextField" binding="textApellidos">
+        <constraints/>
+        <properties>
+          <columns value="95"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7e516" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Matricula"/>
+        </properties>
+      </component>
+      <component id="d78ff" class="javax.swing.JTextField" binding="textMatricula">
+        <constraints/>
+        <properties>
+          <columns value="90"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ba8f4" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Color bicicleta"/>
+        </properties>
+      </component>
+      <component id="23b69" class="javax.swing.JTextField" binding="textColorBicicleta">
+        <constraints/>
+        <properties>
+          <columns value="90"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b6bd8" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Tipo de bicicleta"/>
+        </properties>
+      </component>
+      <component id="85195" class="javax.swing.JComboBox" binding="comboBox1TipoBici">
+        <constraints/>
+        <properties>
+          <editable value="false"/>
+          <model>
+            <item value="1.-Pistera"/>
+            <item value="2.-Montaña"/>
+            <item value="3.-Bmx"/>
+            <item value="4.-Paseo"/>
+          </model>
+        </properties>
+      </component>
+      <component id="35958" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Hora Ingreso"/>
+        </properties>
+      </component>
+      <component id="2b51e" class="javax.swing.JTextField" binding="textHoraIngreso">
+        <constraints/>
+        <properties>
+          <columns value="15"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f8c22" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Ingresar"/>
+        </properties>
+      </component>
+      <component id="c0426" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
